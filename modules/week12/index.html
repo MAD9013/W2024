@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Week 12: Animations, Transitions &amp; Transforms | MAD9013</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Cross-Platform Web Design">
+    
+    <link rel="preload" href="/W2024/assets/css/0.styles.69d48074.css" as="style"><link rel="preload" href="/W2024/assets/js/app.526709bc.js" as="script"><link rel="preload" href="/W2024/assets/js/2.f128b598.js" as="script"><link rel="preload" href="/W2024/assets/js/62.0f575f4a.js" as="script"><link rel="preload" href="/W2024/assets/js/5.38a84afb.js" as="script"><link rel="preload" href="/W2024/assets/js/21.3cc3905f.js" as="script"><link rel="preload" href="/W2024/assets/js/25.7dac8687.js" as="script"><link rel="prefetch" href="/W2024/assets/js/10.75ee3633.js"><link rel="prefetch" href="/W2024/assets/js/11.f53a2f8c.js"><link rel="prefetch" href="/W2024/assets/js/12.1f46829a.js"><link rel="prefetch" href="/W2024/assets/js/13.88188c70.js"><link rel="prefetch" href="/W2024/assets/js/14.325434b4.js"><link rel="prefetch" href="/W2024/assets/js/15.8d154831.js"><link rel="prefetch" href="/W2024/assets/js/16.5cf1696f.js"><link rel="prefetch" href="/W2024/assets/js/17.a6853e29.js"><link rel="prefetch" href="/W2024/assets/js/18.8e9034cf.js"><link rel="prefetch" href="/W2024/assets/js/19.1133911f.js"><link rel="prefetch" href="/W2024/assets/js/20.59ccaf84.js"><link rel="prefetch" href="/W2024/assets/js/22.eff3e25e.js"><link rel="prefetch" href="/W2024/assets/js/23.141da145.js"><link rel="prefetch" href="/W2024/assets/js/24.1ba2e640.js"><link rel="prefetch" href="/W2024/assets/js/26.43658506.js"><link rel="prefetch" href="/W2024/assets/js/27.e3f83aef.js"><link rel="prefetch" href="/W2024/assets/js/28.e49846f0.js"><link rel="prefetch" href="/W2024/assets/js/29.be25a7fa.js"><link rel="prefetch" href="/W2024/assets/js/3.50166c1c.js"><link rel="prefetch" href="/W2024/assets/js/30.6b1c4302.js"><link rel="prefetch" href="/W2024/assets/js/31.0463f387.js"><link rel="prefetch" href="/W2024/assets/js/32.a9867022.js"><link rel="prefetch" href="/W2024/assets/js/33.8b6d1dba.js"><link rel="prefetch" href="/W2024/assets/js/34.667e0d59.js"><link rel="prefetch" href="/W2024/assets/js/35.b8d81d29.js"><link rel="prefetch" href="/W2024/assets/js/36.a4388c63.js"><link rel="prefetch" href="/W2024/assets/js/37.5cd3e3b2.js"><link rel="prefetch" href="/W2024/assets/js/38.096bab0a.js"><link rel="prefetch" href="/W2024/assets/js/39.72943b57.js"><link rel="prefetch" href="/W2024/assets/js/4.0240b810.js"><link rel="prefetch" href="/W2024/assets/js/40.c9ace7af.js"><link rel="prefetch" href="/W2024/assets/js/41.421db779.js"><link rel="prefetch" href="/W2024/assets/js/42.84ef1976.js"><link rel="prefetch" href="/W2024/assets/js/43.1a1060e1.js"><link rel="prefetch" href="/W2024/assets/js/44.560639a3.js"><link rel="prefetch" href="/W2024/assets/js/45.df4db1d3.js"><link rel="prefetch" href="/W2024/assets/js/46.3db89c93.js"><link rel="prefetch" href="/W2024/assets/js/47.9a88b679.js"><link rel="prefetch" href="/W2024/assets/js/48.995e2e4a.js"><link rel="prefetch" href="/W2024/assets/js/49.3f6239ed.js"><link rel="prefetch" href="/W2024/assets/js/50.ae088dcb.js"><link rel="prefetch" href="/W2024/assets/js/51.4fb78e96.js"><link rel="prefetch" href="/W2024/assets/js/52.7d9d4d85.js"><link rel="prefetch" href="/W2024/assets/js/53.a59a649a.js"><link rel="prefetch" href="/W2024/assets/js/54.bf20a807.js"><link rel="prefetch" href="/W2024/assets/js/55.df0c7c8e.js"><link rel="prefetch" href="/W2024/assets/js/56.6d758e1d.js"><link rel="prefetch" href="/W2024/assets/js/57.1a6111fb.js"><link rel="prefetch" href="/W2024/assets/js/58.e07703e7.js"><link rel="prefetch" href="/W2024/assets/js/59.b3be88d5.js"><link rel="prefetch" href="/W2024/assets/js/6.fd27b1b1.js"><link rel="prefetch" href="/W2024/assets/js/60.85c9bb8e.js"><link rel="prefetch" href="/W2024/assets/js/61.c25ecd49.js"><link rel="prefetch" href="/W2024/assets/js/63.b47f6131.js"><link rel="prefetch" href="/W2024/assets/js/64.9a43cab9.js"><link rel="prefetch" href="/W2024/assets/js/65.3c79f9aa.js"><link rel="prefetch" href="/W2024/assets/js/66.325d6769.js"><link rel="prefetch" href="/W2024/assets/js/67.53c19b7f.js"><link rel="prefetch" href="/W2024/assets/js/68.f16ac52f.js"><link rel="prefetch" href="/W2024/assets/js/69.e58fa93c.js"><link rel="prefetch" href="/W2024/assets/js/7.28853ac6.js"><link rel="prefetch" href="/W2024/assets/js/70.3e1d34c6.js"><link rel="prefetch" href="/W2024/assets/js/71.3ccf803f.js"><link rel="prefetch" href="/W2024/assets/js/72.68ff24a4.js"><link rel="prefetch" href="/W2024/assets/js/73.f8a75c3f.js"><link rel="prefetch" href="/W2024/assets/js/74.714a88b7.js"><link rel="prefetch" href="/W2024/assets/js/75.d035ed0d.js"><link rel="prefetch" href="/W2024/assets/js/8.6db0e435.js"><link rel="prefetch" href="/W2024/assets/js/9.23cd66d5.js">
+    <link rel="stylesheet" href="/W2024/assets/css/0.styles.69d48074.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/W2024/" class="home-link router-link-active"><!----> <span class="site-name">MAD9013</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/W2024/overview/" class="nav-link">
+  Overview
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Deliverables" class="dropdown-title"><span class="title">Deliverables</span> <span class="arrow down"></span></button> <button type="button" aria-label="Deliverables" class="mobile-dropdown-title"><span class="title">Deliverables</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/W2024/deliverables/#in-class" class="nav-link">
+  In-Class Activities
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/deliverables/#assignments" class="nav-link">
+  Assignments
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/deliverables/#projects" class="nav-link">
+  Projects
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Modules" class="dropdown-title"><span class="title">Modules</span> <span class="arrow down"></span></button> <button type="button" aria-label="Modules" class="mobile-dropdown-title"><span class="title">Modules</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/W2024/modules/week1/" class="nav-link">
+  Week 1: Introduction &amp; Welcome
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week2/" class="nav-link">
+  Week 2: Images, Links, Colours
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week3/" class="nav-link">
+  Week 3: Box Model &amp; Fonts
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week4/" class="nav-link">
+  Week 4: Responsive Design
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week5/" class="nav-link">
+  Week 5: Flexbox
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week6/" class="nav-link">
+  Week 6: CSS Variables &amp; Other Tidbits
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week7/" class="nav-link">
+  Week 7: CSS Grid
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week8/" class="nav-link">
+  Week 8: Reading Week
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week9/" class="nav-link">
+  Week 9: Container Queries
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week10/" class="nav-link">
+  Week 10: Forms &amp; Tables
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week11/" class="nav-link">
+  Week 11: Accessibility
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week12/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Week 12: Animations, Transitions &amp; Transforms
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week13/" class="nav-link">
+  Week 13: Tailwind CSS
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week14/" class="nav-link">
+  Week 14: Key Concept Review
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week15/" class="nav-link">
+  Week 15: Final Project Work
+</a></li></ul></div></div><div class="nav-item"><a href="/W2024/conventions/" class="nav-link">
+  Conventions
+</a></div><div class="nav-item"><a href="/W2024/resources/" class="nav-link">
+  Resources
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/W2024/overview/" class="nav-link">
+  Overview
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Deliverables" class="dropdown-title"><span class="title">Deliverables</span> <span class="arrow down"></span></button> <button type="button" aria-label="Deliverables" class="mobile-dropdown-title"><span class="title">Deliverables</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/W2024/deliverables/#in-class" class="nav-link">
+  In-Class Activities
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/deliverables/#assignments" class="nav-link">
+  Assignments
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/deliverables/#projects" class="nav-link">
+  Projects
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Modules" class="dropdown-title"><span class="title">Modules</span> <span class="arrow down"></span></button> <button type="button" aria-label="Modules" class="mobile-dropdown-title"><span class="title">Modules</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/W2024/modules/week1/" class="nav-link">
+  Week 1: Introduction &amp; Welcome
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week2/" class="nav-link">
+  Week 2: Images, Links, Colours
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week3/" class="nav-link">
+  Week 3: Box Model &amp; Fonts
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week4/" class="nav-link">
+  Week 4: Responsive Design
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week5/" class="nav-link">
+  Week 5: Flexbox
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week6/" class="nav-link">
+  Week 6: CSS Variables &amp; Other Tidbits
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week7/" class="nav-link">
+  Week 7: CSS Grid
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week8/" class="nav-link">
+  Week 8: Reading Week
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week9/" class="nav-link">
+  Week 9: Container Queries
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week10/" class="nav-link">
+  Week 10: Forms &amp; Tables
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week11/" class="nav-link">
+  Week 11: Accessibility
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week12/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Week 12: Animations, Transitions &amp; Transforms
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week13/" class="nav-link">
+  Week 13: Tailwind CSS
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week14/" class="nav-link">
+  Week 14: Key Concept Review
+</a></li><li class="dropdown-item"><!----> <a href="/W2024/modules/week15/" class="nav-link">
+  Week 15: Final Project Work
+</a></li></ul></div></div><div class="nav-item"><a href="/W2024/conventions/" class="nav-link">
+  Conventions
+</a></div><div class="nav-item"><a href="/W2024/resources/" class="nav-link">
+  Resources
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Content Modules</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/W2024/modules/week1/" class="sidebar-link">Week 1: Introduction &amp; Welcome</a></li><li><a href="/W2024/modules/week2/" class="sidebar-link">Week 2: HTML &amp; CSS Basics</a></li><li><a href="/W2024/modules/week3/" class="sidebar-link">Week 3: Box Model &amp; Fonts</a></li><li><a href="/W2024/modules/week4/" class="sidebar-link">Week 4: Responsive Design</a></li><li><a href="/W2024/modules/week5/" class="sidebar-link">Week 5: Flexbox</a></li><li><a href="/W2024/modules/week6/" class="sidebar-link">Week 6: CSS Variables &amp; Other Useful Tidbits</a></li><li><a href="/W2024/modules/week7/" class="sidebar-link">Week 7: CSS Grid</a></li><li><a href="/W2024/modules/week8/" class="sidebar-link">Week 8: Reading Week</a></li><li><a href="/W2024/modules/week9/" class="sidebar-link">Week 9: Container Queries</a></li><li><a href="/W2024/modules/week10/" class="sidebar-link">Week 10: Forms &amp; Tables</a></li><li><a href="/W2024/modules/week11/" class="sidebar-link">Week 11: Accessibility</a></li><li><a href="/W2024/modules/week12/" aria-current="page" class="active sidebar-link">Week 12: Animations, Transitions &amp; Transforms</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/W2024/modules/week12/#transforms" class="sidebar-link">Transforms</a></li><li class="sidebar-sub-header"><a href="/W2024/modules/week12/#transitions" class="sidebar-link">Transitions</a></li><li class="sidebar-sub-header"><a href="/W2024/modules/week12/#animations" class="sidebar-link">Animations</a></li><li class="sidebar-sub-header"><a href="/W2024/modules/week12/#calls-to-action" class="sidebar-link">Calls to Action</a></li><li class="sidebar-sub-header"><a href="/W2024/modules/week12/#to-do-before-week-13" class="sidebar-link">To Do Before Week 13</a></li></ul></li><li><a href="/W2024/modules/week13/" class="sidebar-link">Week 13: Tailwind CSS</a></li><li><a href="/W2024/modules/week14/" class="sidebar-link">Week 14: Key Concept Review</a></li><li><a href="/W2024/modules/week15/" class="sidebar-link">Week 15: Final Project Work</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><div class="module-layout-w-lesson"><h1>Week 12: Animations, Transitions &amp; Transforms</h1> <div class="module-summary"><div class="custom-block tip"><p class="custom-block-title">Agenda</p> <ul><li>CSS Transforms</li> <li>CSS Transitions</li> <li>CSS Animations</li></ul></div></div> <div class="module-tutorial"><a href="https://github.com/MAD9013/f2023-w12-tutorial" target="_blank" rel="noreferrer nofollow" class="card"><span class="card__type">In-Class Tutorial</span> <h2 class="card__title">Transitions &amp; Animations</h2> <p class="card__desc">
+      Let's explore the basics of adding movement to our sites.
+    </p></a></div> <div class="module-deliverables"><h2>Deliverables</h2> <div class="module-deliverables__grid"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><a href="/W2024/in-class/ic-11.html" class="card-deliverable"><span class="card-deliverable__type">In-Class 11</span> <h3 class="card-deliverable__title">Transitions</h3> <p class="card-deliverable__desc">Let's add polish to our site by adding some transitions!</p> <p class="card-deliverable__due"><strong>Due:</strong> Thu Mar 28, 2024</p></a><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----> <!----><!----><!----><!----><!----><!----><!----><!----><!----><a href="/W2024/assignments/as-11.html" class="card-deliverable"><span class="card-deliverable__type">Assignment 11</span> <h3 class="card-deliverable__title">Banner Animation</h3> <p class="card-deliverable__desc">Add life to your site with a banner animation.</p> <p class="card-deliverable__due"><strong>Due:</strong> Mon Apr 1 2024</p></a><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></div></div></div> <h2 id="transforms"><a href="#transforms" class="header-anchor">#</a> Transforms</h2> <p>Transforms can be used in combination with transitions so that the value of the transform changes over a period of time.</p> <p>There are 2D and 3D transforms. Most of what we do will be using the 2D Transforms</p> <p>Multiple values can be applied to a transform by leaving a space between each.</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box</span> <span class="token punctuation">{</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>30deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.box:hover</span> <span class="token punctuation">{</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>60deg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.thing</span> <span class="token punctuation">{</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateX</span><span class="token punctuation">(</span>200px<span class="token punctuation">)</span> <span class="token function">translateY</span><span class="token punctuation">(</span>-50px<span class="token punctuation">)</span> <span class="token function">scale</span><span class="token punctuation">(</span>2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.thing:hover</span> <span class="token punctuation">{</span>
+  <span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translateX</span><span class="token punctuation">(</span>100px<span class="token punctuation">)</span> <span class="token function">translateY</span><span class="token punctuation">(</span>0px<span class="token punctuation">)</span> <span class="token function">scale</span><span class="token punctuation">(</span>1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>If you want to use transforms in combination with transitions then you must make sure that all the values used in the transition are also used in the default values.</p> <p>In the example above, the transform change would take place instantaneously.</p> <div title="CSS 2D Transforms video" class="video-player"><iframe src="https://www.youtube.com/embed/IeWtxwjBXKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div> <h2 id="transitions"><a href="#transitions" class="header-anchor">#</a> Transitions</h2> <p>Transitions typically get used in combination with pseudo-classes like <code>:hover</code> or when a an element is being added to the screen or about to be removed from the screen.</p> <p>The Transition needs several values: property to change, duration for the change, timing function, and a delay before starting.</p> <p>By default the delay is set to zero.</p> <p>For the property name we can either use the default keyword <code>all</code> or an actual property name.</p> <p>The unit for duration and the delay is <code>s</code>, which stands for seconds.</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">li:hover</span> <span class="token punctuation">{</span>
+  <span class="token property">transition</span><span class="token punctuation">:</span> all 0.4s linear<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">p</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #336699<span class="token punctuation">;</span> <span class="token comment">/* starting value */</span>
+  <span class="token property">transition</span><span class="token punctuation">:</span> background-color 0.5s ease-out<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/* when the class &quot;changed&quot; is added to the paragraph the change
+   in background-color will be initiated. */</span>
+<span class="token selector">p.changed</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #6699cc<span class="token punctuation">;</span> <span class="token comment">/* ending value */</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><div title="CSS Transitions video" class="video-player"><iframe src="https://www.youtube.com/embed/alxljWzQoY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div> <div title="Practical CSS Transition demo video" class="video-player"><iframe src="https://www.youtube.com/embed/xxk6Ji6Layk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div> <p><a href="https://cssreference.io/transitions/" target="_blank" rel="noopener noreferrer">Visual Guide to Transition properties<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="animations"><a href="#animations" class="header-anchor">#</a> Animations</h2> <p>The difference with an animation is that you can define the different values for various CSS properties at different percentages of the timeline in the animation. We then give a name to the animation which can be used within other styles.</p> <p>When you add the animation name to a style definition, you also state how long you want it to take and how many times you want it to repeat.</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token comment">/* use an animation */</span>
+<span class="token selector">.box</span> <span class="token punctuation">{</span>
+  <span class="token property">animation-direction</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+  <span class="token property">animation-duration</span><span class="token punctuation">:</span> 3s<span class="token punctuation">;</span>
+  <span class="token property">animation-iteration-count</span><span class="token punctuation">:</span> infinite<span class="token punctuation">;</span> <span class="token comment">/* keep looping */</span>
+  <span class="token property">animation-name</span><span class="token punctuation">:</span> thing<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* define an animation */</span>
+<span class="token atrule"><span class="token rule">@keyframes</span> thing</span> <span class="token punctuation">{</span>
+  <span class="token selector">0%</span> <span class="token punctuation">{</span>
+    <span class="token property">scale</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> cornflowerblue<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">50%</span> <span class="token punctuation">{</span>
+    <span class="token property">scale</span><span class="token punctuation">:</span> 1<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> cornsilk<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">100%</span> <span class="token punctuation">{</span>
+    <span class="token property">scale</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> coral<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br></div></div><div title="CSS Animation video" class="video-player"><iframe src="https://www.youtube.com/embed/mSUiUst60dY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div> <p><a href="https://cssreference.io/animations/" target="_blank" rel="noopener noreferrer">Visual Guide to Animation properties<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="calls-to-action"><a href="#calls-to-action" class="header-anchor">#</a> Calls to Action</h2> <p>When designing your webpages you want to do so in a way that encourages users to follow a specific series of steps on that page.</p> <p>When a user looks at a webpage, your goal should be to make it plainly obvious to the user what they can do on that page. It should be clear where the <code>calls to action</code> are.</p> <p>A <code>call to action</code> is something like a link or a button. It is designed in a way that encourages a user to do something.</p> <p>A <strong>purchase</strong> button or a <strong>next</strong> button could be a <code>call to action</code>.</p> <h2 id="to-do-before-week-13"><a href="#to-do-before-week-13" class="header-anchor">#</a> To Do Before Week 13</h2> <div class="custom-block warning"><p class="custom-block-title">Self-Directed To Do</p> <p>Explore the <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">Tailwind CSS documentation<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">1/15/2024, 9:14:56 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/W2024/modules/week11/" class="prev">
+        Week 11: Accessibility
+      </a></span> <span class="next"><a href="/W2024/modules/week13/">
+        Week 13: Tailwind CSS
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/W2024/assets/js/app.526709bc.js" defer></script><script src="/W2024/assets/js/2.f128b598.js" defer></script><script src="/W2024/assets/js/62.0f575f4a.js" defer></script><script src="/W2024/assets/js/5.38a84afb.js" defer></script><script src="/W2024/assets/js/21.3cc3905f.js" defer></script><script src="/W2024/assets/js/25.7dac8687.js" defer></script>
+  </body>
+</html>
